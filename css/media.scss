@@ -193,6 +193,236 @@
         bottom: 0;
     }
 }
+@media screen and (max-width: 375px){
+    body{
+        width: 375px;
+    }
+    .wrapper{
+        width: 375px;
+        font-size: 10px;
+    }
+    .header{
+        justify-content: center;
+    }
+    .header-menu{
+        display: none;
+    }
+    .language{
+        ul{
+            width: 74px;
+        }
+        right: -165px;
+        top: 25px;
+    }
+    .photo-fem{
+        img{
+            width: 375x;
+            height: 425px;
+        }
+        width:375px;
+        height: 440px;
+    }
+    .social{
+        width: 375px;
+        position: absolute;
+        top: 20px;
+        justify-content: center;
+        right: 180px
+    }
+    .logo{
+        font-size: 50px;
+        padding-left: 0;
+    }
+    .language{
+        right: -165px;
+    }
+    .slider-menu{
+        width: 375px;
+        transform: scale(0.7);
+        top: 0;
+    }
+    .bonus-collection{
+        width: 375px;
+        height: 100%;
+    }
+    .bonus{
+        display: none;
+    }
+    .free-shipping{
+        h3{
+            font-size: 15px;
+        }
+        svg{
+            width: 20px;
+        }
+    }
+    .collection{
+        h3::before{
+            display: none;
+        }
+        h3:after{
+           display: none;
+        }
+        width: 375px;
+    }
+    .photos{
+        grid-template-columns: 250px;
+        /* grid-gap: 40px; */
+        width: 250px;
+        margin: 35px auto;
+    }
+    .catalog-item{
+        width: 250px;
+        height: 315px;
+    }
+    .image{
+        width: 250px;
+        height: 315px;
+    }
+    .footer{
+        h1{
+            margin-bottom: 0;
+        }
+        div{
+            margin: 0 35px;
+        }
+        width: 375px;
+        height: 100%;
+        display: grid;
+        grid-template-columns:210px 210px;
+    }
+    .connected{
+        width: 185px;
+        left: -25px;
+    }
+    .subs{
+        left: 0;
+    }
+    .connected{
+        h1{
+            width:175px;
+        }
+    }
+    .up{
+        bottom: 170px;
+        left: 95px;
+    }
+}
+@media screen and (max-width: 414px) {
+    body{
+        width: 414px;
+    }
+    .wrapper{
+        width: 414px;
+        font-size: 10px;
+    }
+    .header{
+        justify-content: center;
+    }
+    .header-menu{
+        display: none;
+    }
+    .language{
+        ul{
+            width: 74px;
+        }
+        right: -165px;
+        top: 25px;
+    }
+    .photo-fem{
+        img{
+            width: 414px;
+            height: 425px;
+        }
+        width: 414px;
+        height: 440px;
+    }
+    .social{
+        width: 383px;
+        position: absolute;
+        top: 20px;
+        justify-content: center;
+        right: 180px
+    }
+    .logo{
+        font-size: 50px;
+        padding-left: 0;
+    }
+    .language{
+        right: -165px;
+    }
+    .slider-menu{
+        width: 414px;
+        transform: scale(0.7);
+        top: 0;
+    }
+    .bonus-collection{
+        width: 414px;
+        height: 100%;
+    }
+    .bonus{
+        display: none;
+    }
+    .free-shipping{
+        h3{
+            font-size: 15px;
+        }
+        svg{
+            width: 20px;
+        }
+    }
+    .collection{
+        h3::before{
+            display: none;
+        }
+        h3:after{
+           display: none;
+        }
+        width: 414px;
+    }
+    .photos{
+        grid-template-columns: 250px;
+        /* grid-gap: 40px; */
+        width: 250px;
+        margin: 35px auto;
+    }
+    .catalog-item{
+        width: 250px;
+        height: 315px;
+    }
+    .image{
+        width: 250px;
+        height: 315px;
+    }
+    .footer{
+        h1{
+            margin-bottom: 0;
+        }
+        div{
+            margin: 0 35px;
+        }
+        width: 414px;
+        height: 100%;
+        display: grid;
+        grid-template-columns:210px 210px;
+    }
+    .connected{
+        width: 185px;
+        left: -25px;
+    }
+    .subs{
+        left: 0;
+    }
+    .connected{
+        h1{
+            width:175px;
+        }
+    }
+    .up{
+        bottom: 170px;
+        left: 95px;
+    }
+}
 @media screen and (max-width: 480px) {
     body{
         width: 480px;
@@ -221,6 +451,7 @@
         }
         width: 480px;
         height: 440px;
+        display: none;
     }
     .social{
         width: 383px;
@@ -232,6 +463,8 @@
     .logo{
         font-size: 50px;
         padding-left: 0;
+        position: relative;
+        top: -45px;
     }
     .language{
         right: -165px;
@@ -244,6 +477,7 @@
     .bonus-collection{
         width: 480px;
         height: 100%;
+        padding: 0 0;
     }
     .bonus{
         display: none;
