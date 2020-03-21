@@ -125,7 +125,7 @@
             font-size: 15px;
         }
         svg{
-            width: 20px;
+        display: none;        
         }
     }
     .return{
@@ -133,7 +133,7 @@
             font-size: 15px;        
         }
         svg{
-            width: 20px;
+            display: none;        
         }
     }
     .support{
@@ -141,7 +141,7 @@
             font-size: 15px;
         }
         svg{
-            width: 20px;
+            display: none;        
         }
     }
     .collection{
@@ -483,12 +483,12 @@
         right: 180px
     }
     .logo{
-        font-size: 80px;
+        font-size: 100px;
         padding-left: 0;
         top: 5px;
     }
     .language{
-        right: -40px;
+        right: 120px;
         top: -20px;
     }
     .slider-menu{

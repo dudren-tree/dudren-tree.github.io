@@ -115,19 +115,19 @@
     font-size: 15px;
   }
   .free-shipping svg {
-    width: 20px;
+    display: none;
   }
   .return h3 {
     font-size: 15px;
   }
   .return svg {
-    width: 20px;
+    display: none;
   }
   .support h3 {
     font-size: 15px;
   }
   .support svg {
-    width: 20px;
+    display: none;
   }
   .collection h3::before {
     width: 150px;
@@ -481,12 +481,12 @@
     display: none;
   }
   .logo {
-    font-size: 80px;
+    font-size: 100px;
     padding-left: 0;
     top: 5px;
   }
   .language {
-    right: -40px;
+    right: 120px;
     top: -20px;
   }
   .slider-menu {
