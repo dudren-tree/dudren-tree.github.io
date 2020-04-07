@@ -108,7 +108,7 @@ body {
 
 .social svg {
   padding-right: 15px;
-  width: 25px;
+  width: 30px;
   fill: orange;
 }
 
@@ -249,10 +249,14 @@ body {
 
 .arrow-right svg {
   fill: white;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .arrow-right svg:hover {
   fill: black;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .arrow-left {
@@ -265,10 +269,14 @@ body {
 
 .arrow-left svg {
   fill: white;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .arrow-left svg:hover {
   fill: black;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .cube {
@@ -393,10 +401,25 @@ body {
   position: absolute;
   bottom: 105px;
   margin: 0 auto;
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
 }
 
 .shop-button a {
   text-decoration: none;
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
+  width: 190px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .shop-button h1 {
@@ -418,6 +441,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
 }
 
 .slider {
@@ -739,6 +764,10 @@ body {
   z-index: 1;
 }
 
+.prod {
+  position: absolute;
+}
+
 .sales {
   position: absolute;
   background-color: #feab12;
@@ -765,7 +794,7 @@ body {
   font-weight: 600;
 }
 
-.catalog-item a {
+.button-cart {
   position: absolute;
   display: block;
   height: 40px;
@@ -788,7 +817,7 @@ body {
   background-color: #f09d66;
 }
 
-.catalog-item a::before {
+.button-cart::before {
   position: absolute;
   content: '';
   left: -40px;
@@ -799,11 +828,11 @@ body {
   border-color: transparent transparent #000000 transparent;
 }
 
-.catalog-item a:hover::before {
+.button-cart:hover::before {
   border-color: transparent transparent #f09d66 transparent;
 }
 
-.catalog-item a::after {
+.button-cart::after {
   position: absolute;
   content: '';
   right: -40px;
@@ -814,7 +843,7 @@ body {
   border-color: transparent transparent transparent #000000;
 }
 
-.catalog-item a:hover::after {
+.button-cart:hover::after {
   border-color: transparent transparent transparent #f09d66;
 }
 

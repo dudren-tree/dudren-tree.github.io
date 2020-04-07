@@ -305,10 +305,10 @@
 
 @media screen and (max-width: 414px) {
   body {
-    width: 395px;
+    width: 400px;
   }
   .wrapper {
-    width: 395px;
+    width: 400px;
     font-size: 10px;
   }
   .top-menu span {
@@ -330,15 +330,15 @@
     width: 74px;
   }
   .photo-fem {
-    width: 395px;
+    width: 400px;
     height: 440px;
   }
   .photo-fem img {
-    width: 395px;
+    width: 400px;
     height: 425px;
   }
   .social {
-    width: 395px;
+    width: 400px;
     position: absolute;
     top: 20px;
     -webkit-box-pack: center;
@@ -359,13 +359,13 @@
     top: -20px;
   }
   .slider-menu {
-    width: 395px;
+    width: 400px;
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
     top: 0;
   }
   .bonus-collection {
-    width: 395px;
+    width: 400px;
     height: 100%;
   }
   .bonus {
@@ -378,7 +378,7 @@
     width: 20px;
   }
   .collection {
-    width: 395px;
+    width: 400px;
   }
   .collection h3::before {
     display: none;
@@ -402,7 +402,7 @@
     height: 315px;
   }
   .footer {
-    width: 395px;
+    width: 400px;
     height: 100%;
     display: -ms-grid;
     display: grid;
