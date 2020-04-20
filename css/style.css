@@ -1,3 +1,7 @@
+body {
+  margin: 0 auto;
+}
+
 img {
   width: 300px;
   height: 100px;
@@ -28,5 +32,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   color: black;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
