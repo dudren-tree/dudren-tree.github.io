@@ -6,6 +6,7 @@ window.addEventListener('load', function () {
     let text = document.createElement('div');
     text.style.border = '1px solid black';
     text.style.background = 'white';
+    text.id = 'show';
     console.log(atHund , atAll, subBut, wrapp);
     subBut.addEventListener('click', function () {
         let num = (atHund.value * (atAll.value / 100)) / 1;
