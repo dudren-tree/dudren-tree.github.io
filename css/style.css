@@ -1,7 +1,11 @@
 body {
   width: 100%;
-  height: 690px;
+  height: 100%;
   margin: 0 auto;
+  background: #724e80;
+  background: -webkit-gradient(linear, left top, right top, from(#724e80), to(rgba(213, 131, 247, 0.853289)));
+  background: linear-gradient(90deg, #724e80 0%, rgba(213, 131, 247, 0.853289) 100%);
+  background-repeat: repeat-y;
 }
 
 .wrapper {
@@ -20,47 +24,11 @@ body {
           flex-direction: column;
   width: 100%;
   height: 100%;
-  background: #724e80;
-  background: -webkit-gradient(linear, left top, left bottom, from(#724e80), to(rgba(213, 131, 247, 0.853289)));
-  background: linear-gradient(180deg, #724e80 0%, rgba(213, 131, 247, 0.853289) 100%);
 }
 
 .wrapper a:hover {
   -webkit-transform: scale(2);
           transform: scale(2);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-img {
-  width: 300px;
-  margin: 0 auto;
-}
-
-h1 {
-  position: absolute;
-  top: 35px;
-  z-index: 1;
-  width: 150px;
-  font-size: 20px;
-  display: inline;
-}
-
-a {
-  position: relative;
-  text-decoration: none;
-  width: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: black;
-  margin: 0 auto;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
